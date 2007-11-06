@@ -1,18 +1,18 @@
 %define name 	mb-applet-input-manager
 %define version 0.6
-%define release 1mdk
+%define release %mkrel 2
 
 Summary: 	Input manager for the Matchbox Desktop
 Name: 		%name
 Version: 	%version
 Release: 	%release
-Url: 		http://matchbox.handhelds.org/
-License: 	GPL
+Url: 		http://matchbox-project.org/
+License: 	GPLv2+
 Group: 		Graphical desktop/Other
-Source: 	ftp://ftp.handhelds.org/matchbox/sources/%name/%version/%{name}-%{version}.tar.bz2
+Source: 	http://matchbox-project.org/sources/%name/%version/%{name}-%{version}.tar.bz2
 
 Buildroot: 	%_tmppath/%name-%version-buildroot
-BuildRequires:	pango-devel XFree86-devel jpeg-devel png-devel libXsettings-client-devel
+BuildRequires:	pango-devel X11-devel jpeg-devel png-devel libXsettings-client-devel
 
 %description
 Input manager for the Matchbox Desktop
@@ -37,4 +37,3 @@ rm -rf $RPM_BUILD_ROOT
 %_bindir/mbinputmgr
 %_datadir/applications/*
 %_datadir/pixmaps/*
-
