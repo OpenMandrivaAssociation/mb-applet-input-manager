@@ -12,7 +12,7 @@ Group: 		Graphical desktop/Other
 Source: 	http://matchbox-project.org/sources/%name/%version/%{name}-%{version}.tar.bz2
 
 Buildroot: 	%_tmppath/%name-%version-buildroot
-BuildRequires:	pango-devel X11-devel jpeg-devel png-devel libXsettings-client-devel
+BuildRequires:	pango-devel X11-devel jpeg-devel png-devel libXsettings-client-devel libmatchbox-devel
 
 %description
 Input manager for the Matchbox Desktop
