@@ -9,6 +9,7 @@ Release: 	%release
 Url: 		http://matchbox-project.org/
 License: 	GPLv2+
 Group: 		Graphical desktop/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: 	http://matchbox-project.org/sources/%name/%version/%{name}-%{version}.tar.bz2
 
 BuildRequires:	pango-devel X11-devel jpeg-devel png-devel libXsettings-client-devel libmatchbox-devel
