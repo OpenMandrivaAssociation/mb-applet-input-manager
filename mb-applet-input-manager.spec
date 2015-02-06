@@ -1,6 +1,6 @@
 %define name 	mb-applet-input-manager
 %define version 0.6
-%define release  8
+%define release  9
 
 Summary: 	Input manager for the Matchbox Desktop
 Name: 		%name
