@@ -6,7 +6,7 @@ Summary: 	Input manager for the Matchbox Desktop
 Name: 		%name
 Version: 	%version
 Release: 	%release
-Url: 		http://matchbox-project.org/
+Url: 		https://matchbox-project.org/
 License: 	GPLv2+
 Group: 		Graphical desktop/Other
 Source: 	http://matchbox-project.org/sources/%name/%version/%{name}-%{version}.tar.bz2
