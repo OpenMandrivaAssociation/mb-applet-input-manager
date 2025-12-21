@@ -10,6 +10,11 @@ Url: 		https://matchbox-project.org/
 License: 	GPLv2+
 Group: 		Graphical desktop/Other
 Source: 	http://matchbox-project.org/sources/%name/%version/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	libmatchbox-devel
 
